@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function () {
       ].filter(Boolean);
 
       const texto = encodeURIComponent(linhas.join('\n'));
-      const numeroWhatsApp = '5545998260973'; // Substitua pelo seu número com DDI + DDD, somente números
+      const numeroWhatsApp = '554598260973'; // Substitua pelo seu número com DDI + DDD, somente números
       const url = `https://wa.me/${numeroWhatsApp}?text=${texto}`;
 
       window.open(url, '_blank');
